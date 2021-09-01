@@ -180,6 +180,18 @@ select {
     color: white;
 }
 
+.resetButton {
+    background-color:turquoise;
+    transition-duration: 0.4s;
+    text-decoration:none;
+    text-align: center;
+}
+
+.resetButton:hover{
+    background-color: red;
+    color: white;
+}
+
 #name-error {
     margin-left: 20%;
 }
